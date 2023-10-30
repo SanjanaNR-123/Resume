@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Resume</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(173, 235, 255);
+      color: #000000;
+    }
+
+    .resume {
+      max-width: 700px;
+      margin: 50px auto;
+      padding: 30px;
+      background: #f2ebf3;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 5px 0;
+      font-size: 28px;
+      color: #333;
+    }
+
+    p {
+      margin: 5px 0;
+    }
+
+    .content {
+      margin-top: 30px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      animation: fadeInUp 1s ease forwards;
+      transition: background-color 0.3s;
+    }
+
+    .section:hover {
+      background-color: rgb(173, 235, 255) ;
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 15px;
+      font-size: 22px;
+    }
+
+    .skills-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .skills-list li {
+      margin-right: 10px;
+      margin-bottom: 10px;
+      padding: 8px 15px;
+      background: #ffe2e2;
+      border-radius: 20px;
+      font-size: 14px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .skills-list li:hover {
+      transform: scale(1.1);
+    }
+
+    .achievements p {
+      margin-bottom: 10px;
+    }
+
+    .contact p {
+      margin: 5px 0;
+    }
+
+    .profile-photo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .profile-photo img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+.skill {
+  transition: color 0.3s;
+}
+
+.skill:hover {
+  color: #002fff; 
+}
+
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <div class="profile-photo">
+      <img src="my photo.jpg" alt="Profile Photo">
+    </div>
+    <div class="header">
+      <h1>Sanjana NR</h1>
+      <p>Computer Science and Engineering Graduate</p>
+    </div>
+    <div class="content">
+      <div class="section">
+        <h2><u>About Me</u></h2>
+        <ul>
+          <li>I am a Computer Science and Engineering Graduate.</li>
+          <li>I am proficient in C, C++, Java, Python programming languages.</li>
+          <li>I am also proficient in front-end web development and web development languages like HTML, CSS, and JavaScript.</li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2><u>Education</u></h2>
+        <ul>
+          <li>Completed schooling in Bengaluru.</li>
+          <li>Completed pre-university from Sri Chaitanya PU College.</li>
+          <li>Completed a bachelor's degree in Computer Science and Engineering from Dr. Ambedkar Institute of Technology.</li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2><u>Hobbies</u></h2>
+        <ul>
+          <li>Reading novels</li>
+          <li>Traveling</li>
+          <li>Singing</li>
+          <li>Dancing</li>
+          <li>Drawing sketches</li>
+          <li>Photography</li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2><u>Skills</u></h2>
+        <ul class="skills-list">
+          <li><b class="skill">HTML5</b></li>
+          <li><b class="skill">CSS3</b></li>
+          <li><b class="skill">JavaScript</b></li>
+          <li><b class="skill">jQuery</b></li>
+          <li><b class="skill">Bootstrap</b></li>
+          <li><b class="skill">Version Control (Git)</b></li>
+          <li><b class="skill">C</b></li>
+          <li><b class="skill">C++</b></li>
+          <li><b class="skill">Java</b></li>
+          <li><b class="skill">Python</b></li>
+        </ul>
+      </div>      
+      <div class="section achievements">
+        <h2><u>Achievements</u></h2>
+        <ul>
+          <li>Completed an internship in microcontroller and microprocessor after the first year.</li>
+          <li>Completed an internship in front-end web development after the second year.</li>
+          <li>Served as an administrative assistant for events.</li>
+          <li>Completed a 10km marathon in 1 hour and came 5th position among 200+ participants.</li>
+        </ul>
+      </div>
+      <div class="section contact">
+        <h2><u>Contact Details</u></h2>
+        <ul>
+        <li>Email: nagolsanjana@gmail.com</li>
+        <li>Phone: 7676869862</li>
+        <li><a href="https://www.linkedin.com/in/sanjana-nr-332a2422a" target="_main">My LinkedIn Profile</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
